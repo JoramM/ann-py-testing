@@ -1,9 +1,5 @@
-Limo - A Feedback Control System
+ANN - An Artificial Neuronal Network Playground
 ================================
-
-Emotionen live zu spiegeln und zu verstehen ist für jeden Vortragenden von essentieller Bedeutung.
-
-
 
 # Development
 
@@ -36,15 +32,6 @@ Now you can develop your code and execute it.
 ## Testing - `pytest`
 
 This project uses `pytest` for testing your library/application. As you can see in the `requirements.txt` it does not come as standard package with `python` and has to be installed in before. After installing `pytest` you should be able to use `pytest` as command line tool.
-
-## Execution
-
-The following command runs the crossbar server and delivers the flask app (to [http://localhost:8080](http://localhost:8080))
-
-```bash
-crossbar init
-crossbar start
-```
 
 ### Running tests
 
