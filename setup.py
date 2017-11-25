@@ -18,22 +18,22 @@ def read(*names, **kwargs):
     ).read()
 
 setup(
-    name='ann',
+    name='ann_testing',
 
     # Versions should comply with PEP440.  For a discussion on single-sourcing
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
-    version='0.0.1',
+    version='0.0.2',
 
-    description='ANN - Some Artificial Neuronal Network Testing',
+    description='Artificial Neuronal Network Playground',
     long_description=read('README.md'),
 
     # The project's main homepage.
-    url='https://github.com/pypa/sampleproject',
+    url='https://github.com/JoramM/ann_testing',
 
     # Author details
     author='Joram Markert',
-    author_email='john.doe@example.com',
+    author_email='info@whynah.de',
 
     # Choose your license
     license='MIT',
@@ -59,7 +59,7 @@ setup(
     ],
 
     # What does your project relate to?
-    keywords='live emotion feedback talk insight',
+    keywords='recurrent neuronal network backpropagation',
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
