@@ -29,7 +29,7 @@ setup(
     long_description=read('README.md'),
 
     # The project's main homepage.
-    url='https://github.com/JoramM/ann_testing',
+    url='https://github.com/JoramM/ann-py-testing',
 
     # Author details
     author='Joram Markert',
