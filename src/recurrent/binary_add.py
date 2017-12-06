@@ -1,4 +1,5 @@
 import copy, numpy as np
+
 np.random.seed(0)
 
 # compute sigmoid nonlinearity
@@ -25,7 +26,7 @@ for i in range(largest_number):
 # input variables
 alpha = 0.1         # learning rate
 input_dim = 2       # we have two input numbers
-hidden_dim = 9
+hidden_dim = 10
 output_dim = 1      # output the sum of the two numbers
 
 
@@ -39,7 +40,7 @@ synapse_1_update = np.zeros_like(synapse_1)
 synapse_h_update = np.zeros_like(synapse_h)
 
 # training logic
-for j in range(15000):
+for j in range(10000):
 
     # generate a simple addition problem (a + b = c)
     a_int = np.random.randint(largest_number/2) # int version
