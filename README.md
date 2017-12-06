@@ -5,7 +5,7 @@ Inspired from several tutorials about Neuronal Networks I created this Python pr
 Modul             | What it does                         | Tutorial
 ---               | ---                                  | ---
 Backpropagation   | Learn a simple logic function        | [A Neural Network in 11 lines of Python](https://iamtrask.github.io/2015/07/12/basic-python-network/)
-RNN               | Learn how to add two binary numbers  | [Anyone Can Learn To Code an LSTM-RNN in Python](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
+Recurrent         | Learn how to add two binary numbers  | [Anyone Can Learn To Code an LSTM-RNN in Python](https://iamtrask.github.io/2015/11/15/anyone-can-code-lstm/)
 
 ---
 ## Setup
@@ -18,11 +18,18 @@ First of all I recommend to create and activate an isolated Python environment w
 
 There are many ways to install `virtualenv`. I like to use [`autovenv`](https://autovenv.readthedocs.io/en/latest/) for that purpose.
 
-### 2. Fetch dependencies
+### 2. Clone the repository
+Download the `*.zip` of this repository or run the following command (requires `git`)
+```bash
+git clone https://github.com/JoramM/nn-examples.py.git
+```
+
+### 3. Fetch dependencies
 
 When your environment is activated then get the project's dependencies by running:
 
 ```bash
+cd nn-examples.py
 pip install -r requirements.txt
 ```
 
